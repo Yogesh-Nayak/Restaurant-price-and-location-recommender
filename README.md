@@ -35,6 +35,11 @@ The project involves implementing a Flask website that takes three inputs from t
 ### Recommendation page
 ![sixth page](https://github.com/Yogesh-Nayak/Restaurant-price-and-location-recommender/assets/79314126/8e17e3ba-02d3-413b-b687-fa9ea49658ba)
 
+### Conclusion page
+
+![image](https://github.com/Yogesh-Nayak/Restaurant-price-and-location-recommender/assets/79314126/bdcad00e-97c4-4429-8723-176d0fbcd172)
+
+
 
 <br><br>
 
@@ -43,8 +48,11 @@ At each step of the analysis, various findings can be observed. During data clea
 <br>
 
 ## Conclusion:
-The accuracy of the models was not up to the mark. There was less collinearity between the target variable and features. Data was biased as most of the cuisine was available in Whitefield Location. 
-Addressing these below limitations and challenges requires careful data handling, model selection, and rigorous evaluation to ensure the project's success. Regular monitoring and updates to the models based on new data can also help maintain their accuracy over time.
+  - We were able scrape the zomato website successfully and were able to extract around 5000 records.
+  - The dataset which was recovered after webscraping were very less correlated to the target label.
+  - Number of features were low and was not enough to make proper prediction model.
+  - Due to less features and lower correlation between the features and the label, the model was having very low accuracy.
+  - If there were more number of features and higher co-linearity between the features and the target label, the model would may had higher accuracy.
 <br>
 
 ## Challenges Faced:
